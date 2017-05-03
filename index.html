@@ -4,37 +4,90 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 	<title>Single page</title>
 </head>
 <body>
 
-<div class="container">
+<section class="container">
     <h2>Sobre Nós</h2>
     <img class="img-responsive" src="img/empresa.jpg">
 
-	<div class="panel panel-default">
-		<div class="panel-heading">
-			<h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo">Desde 1935</h3>
+    <div id="paineis-sobre" class="panel-group">
+		<div class="panel panel-default">
+			<div class="panel-heading">
+				<h3 class="panel-title" data-toggle="collapse" data-target="#primeiro-paragrafo" data-parent="#paineis-sobre" >Desde 1935</h3>
+			</div>
+			<div id="primeiro-paragrafo" class="collapse" >
+					<div class="panel-body">
+						<p>A TopCasa Fina Arquitetura está no mercado desde... </p> 
+					</div>
+			</div>
 		</div>
-		<div class="panel-body">
-			<p id="primeiro-paragrafo" class="collapse in">A TopCasa Fina Arquitetura está no mercado desde... </p> 
+		<div class="panel panel-default">
+			<div class="panel-heading">	
+				<h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo" data-parent="#paineis-sobre"> Desde 1935</h3>
+			</div>
+			<div id="segundo-paragrafo" class="collapse">
+				<div class="panel-body">
+					<p>A TopCasa Fina Arquitetura está no mercado desde... </p> 
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading">	
+				<h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo" data-parent="#paineis-sobre" >Desde 1935</h3>
+			</div>
+			<div id="terceiro-paragrafo" class="collapse">
+				<div class="panel-body">
+					<p>A TopCasa Fina Arquitetura está no mercado desde... </p>
+				</div>
+			</div>
 		</div>
 	</div>
-	<div class="panel panel-default">
-		<div class="panel-heading">	
-			<h3 class="panel-title" data-toggle="collapse" data-target="#segundo-paragrafo">Desde 1935</h3>
-		</div>
-		<div class="panel-body">
-			<p id="segundo-paragrafo" class="collapse">A TopCasa Fina Arquitetura está no mercado desde... </p> 
-		</div>
-	<div class="panel panel-default">
-		<div class="panel-heading">	
-			<h3 class="panel-title" data-toggle="collapse" data-target="#terceiro-paragrafo">Desde 1935</h3>
-		</div>
-		<div class="panel-body">
-			<p id="terceiro-paragrafo" class="collapse">A TopCasa Fina Arquitetura está no mercado desde... </p>
-		</div>
-	</div>
+</section>
+<div class="jumbotron container">
+	<h2>Mais de 300 prêmios em design e em conforto</h2>
+	<p>Mais de 5 milhões de clientes satisfeitos em todo o mundo</p>
+</div>
+<section class="container">
+	<h2>Nossos projetos</h2>
+	<figure class="thumbnail">
+		<img src="img/projetos/casa-castelo.png" alt="Foto da Casa Castelo">
+		<figcaption class="caption">
+			<h3>Casa Castelo</h3>
+			<p>A Casa Castelo é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+		</figcaption>
+	</figure>
+	<figure class="thumbnail">
+		<img src="img/projetos/casa-lago.png" alt="Foto da Casa Castelo">
+		<figcaption class="caption">
+			<h3>Casa Lago</h3>
+			<p>A Casa Lago é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+		</figcaption>
+	</figure>
+	<figure class="thumbnail">
+		<img src="img/projetos/mercado-marapira.png" alt="Foto da Casa Castelo">
+		<figcaption class="caption">
+			<h3>Mercado Marapira</h3>
+			<p>A Mercado Marapira é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+		</figcaption>
+	</figure>
+	<figure class="thumbnail">
+		<img src="img/projetos/palacio-dionisio.png" alt="Foto da Casa Castelo">
+		<figcaption class="caption">
+			<h3>Palacio Dionisio</h3>
+			<p>A Palacio Dionisio é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+		</figcaption>
+	</figure>
+	<figure class="thumbnail">
+		<img src="img/projetos/residencia-ludi.png" alt="Foto da Casa Castelo">
+		<figcaption class="caption">
+			<h3>Residência Ludi</h3>
+			<p>A Residência Ludi é o último lançamento da TopCasaFina Arquitetura, feita para um monge.</p>
+		</figcaption>
+	</figure>
+</section>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.min.js"></script>
 </body>
