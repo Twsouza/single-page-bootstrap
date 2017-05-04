@@ -11,3 +11,13 @@
 	padding-bottom: 1.5em;
 	margin-bottom: 0;
 }
+
+.contato-select,
+.grupo-radio {
+	width: 49%;
+	display: inline-block;
+	vertical-align: middle;
+}
+.grupo-radio .radio:first-child {
+	margin-top: 0;
+}
